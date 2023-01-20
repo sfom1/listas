@@ -1,37 +1,10 @@
 
-.a{
+h5::before{
 
-  color: rgb(235, 105, 30);
-  background-color: #333333;
+  content: counter(cuenta-tipos, upper-alpha)".";
 }
 
-.b{
-
-    color: rgb(235, 105, 30);
-    background-color: #333333;
-  }
-.a{
-
-  color: rgb(235, 105, 30);
-  background-color: #333333;
+p.ciclos::before {
+  content: counter(cuenta-ciclos) ".";
+  counter-increment: cuenta-ciclos ;
 }
-
-.b{
-
-    color: rgb(235, 105, 30);
-    background-color: #333333;
-  }
-
-
-  .c{
-
-    color: rgb(235, 105, 30);
-    background-color: #333333;
-  }
-
-
-  .c{
-
-    color: rgb(235, 105, 30);
-    background-color: #333333;
-  }
