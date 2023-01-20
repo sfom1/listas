@@ -1,7 +1,5 @@
-
-h5::before{
-
-  content: counter(cuenta-tipos, upper-alpha)".";
+p1{
+  counter-reset: cuenta-ciclos;
 }
 
 p.ciclos::before {
