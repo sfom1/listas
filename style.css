@@ -1,3 +1,4 @@
+
 p1{
   counter-reset: cuenta-ciclos;
 }
@@ -6,3 +7,16 @@ p.ciclos::before {
   content: counter(cuenta-ciclos) ".";
   counter-increment: cuenta-ciclos ;
 }
+
+p2 {
+ counter-reset: cuenta-tipos;
+}
+
+p3::before {
+  content: counter(cuenta-tipos, upper-alpha)".";
+  counter-increment: cuenta-ciclos;
+
+  
+  https://joseramonbernabeu.com/tutorial/como-personalizar-listas-html-con-css/ 
+
+  
