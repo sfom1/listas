@@ -1,22 +1,19 @@
 
-p1{
-  counter-reset: cuenta-ciclos;
+ol li.roman {
+  list-style-type: upper-roman;
+
 }
 
-p.ciclos::before {
-  content: counter(cuenta-ciclos) ".";
-  counter-increment: cuenta-ciclos ;
+ol li.latin {
+  list-style-type: lower-latin;
+
 }
 
-p2 {
- counter-reset: cuenta-tipos;
+li  {
+  list-style-type: circle;
+
 }
 
-p3::before {
-  content: counter(cuenta-tipos, upper-alpha)".";
-  counter-increment: cuenta-ciclos;
-
-  
-  https://joseramonbernabeu.com/tutorial/como-personalizar-listas-html-con-css/ 
-
-  
+li.numero {
+  list-style-type: decimal
+}
